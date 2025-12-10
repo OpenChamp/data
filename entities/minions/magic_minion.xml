@@ -25,7 +25,15 @@
         chase_distance="100.0"
      />
     <target targeting_mode="NEAREST" />
-    <attack />
+    <attack
+        type="RANGED"
+        projectile_id="minion_cast"
+    />
     <!-- Initial Intent: Move toward lane objective (BrainSystem reads this and controls minion behavior) -->
-    <intent type="move_to_objective" priority="normal" target_spawnpoint_id="1" objective_index="0" />
+    <intent
+        type="move_to_objective"
+        priority="normal"
+        target_spawnpoint_id="1"
+        objective_index="0"
+    />
 </entity>

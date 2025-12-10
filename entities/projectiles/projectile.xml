@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entity
+	xmlns="https://open-champ.com/mySchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="https://open-champ.com/mySchema ../_entity.xsd"
+	id="projectile"
+>
+	<projectile
+		speed="8.0"
+		lifetime_ms="2000.0"
+		hit_radius="0.3"
+		homing="true"
+		max_hits="1"
+	/>
+	<movement collision_radius="0.3" />
+</entity>

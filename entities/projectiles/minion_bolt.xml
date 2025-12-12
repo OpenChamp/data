@@ -16,4 +16,5 @@
 		max_hits="1"
 	/>
 	<movement collision_radius="0.3" />
+	<network />
 </entity>

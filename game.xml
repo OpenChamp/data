@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<open-champ
+	xmlns="https://open-champ.com/mySchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	id="game_config"
+>
+<!-- MUST UPDATE DATA_LOADER GAMECONFIG TO ADD VALUES -->
+    <engine>
+        <tickrate value="30" />
+        <debug_mode value="true" />
+        <log_level value="INFO" />
+        <max_lifetime value="0" />
+
+        <allow_pausing value="true" />
+        <allow_spectators value="true" />
+        <allow_reconnections value="true" />
+
+        <lobby_timeout value="60" />
+        <max_pause_time value="300" />
+
+        <wave_spawn_interval value="15" />
+        <game_start_delay value="5" />
+    </engine>
+
+    <network>
+        <port value="7000" />
+        <max_clients value="6" />
+    </network>
+
+    <visualizer>
+        <enabled value="false" />
+        <port value="8000" />
+    </visualizer>
+
+</open-champ>

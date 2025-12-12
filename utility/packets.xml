@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<packets
+	xmlns="https://open-champ.com/mySchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	id="packet_definitions"
+>
+    <packet_type type="GAME_START" min="2" max="" />
+    <packet_type type="GAME_STATE" min="2" max="" />
+    <packet_type type="GAME_TIME" min="2" max="" />
+    <packet_type type="LOBBY_FULL" min="2" max="" />
+    <packet_type type="MAP_SPAWN" min="2" max="" />
+    <packet_type type="MAP_LOAD" min="2" max="" />
+    <packet_type type="ENTITY_SPAWN" min="2" max="" />
+    <packet_type type="ENTITY_POSITION" min="2" max="" />
+    <packet_type type="ENTITY_STATS" min="2" max="" />
+    <packet_type type="ENTITY_STATE" min="2" max="" />
+    <packet_type type="COMBAT_EVENT" min="2" max=""  />
+    <packet_type type="PLAYER_READY" min="2" max=""  />
+    <packet_type type="PLAYER_DISCONNECT" min="2" max=""  />
+    <packet_type type="PLAYER_MOVE" min="2" max=""  />
+</packets>
